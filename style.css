@@ -6,6 +6,7 @@ body {
 }
 
 .bg {
+  background: url('./img/cyberpunk.jpg') no-repeat center center/cover;
   top: -45px;
   left: -45px;
   width: calc(100vw + 90px);
@@ -19,10 +20,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 100px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 2048px) {
   body {
     background-color: #f3ee00;
   }
@@ -33,5 +34,9 @@ body {
     width: 100vw;
     top: 0;
     left: 0;
+  }
+
+  .loading-text {
+    font-size: 48px;
   }
 }
