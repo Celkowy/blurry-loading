@@ -11,7 +11,7 @@ body {
 }
 
 .bg {
-  background: url('/img/cyberpunk.jpg') no-repeat center center/cover;
+  background: url('img/cyberpunk.jpg') no-repeat center center/cover;
   top: -45px;
   left: -45px;
   width: calc(100vw + 90px);
