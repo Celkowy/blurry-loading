@@ -1,1 +1,1 @@
-"# blurry-loading" 
+# blurry-loading
