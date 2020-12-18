@@ -3,6 +3,7 @@ const loadingText = document.querySelector('.loading-text')
 let load = 0
 
 let interval = setInterval(blur, 30)
+
 function blur() {
   if (load < 100) load++
   if (load == 100) clearInterval(interval)
